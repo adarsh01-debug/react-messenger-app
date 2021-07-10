@@ -1,0 +1,42 @@
+.message {
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+}
+
+.message p {
+    color: white;
+    display: flex;
+}
+
+.message__text {
+    font-size: 1.2rem !important;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.message__user {
+    margin-left: auto;
+    color: white;
+    text-align: left !important;
+    display: flex !important;
+}
+
+.message__userCard {
+    color: white !important;
+    background-color: #0b81ff !important;
+    max-width: 70vw;
+    font-size: xx-small !important;
+}
+
+.message__guestCard {
+    background-color: #e9e9eb !important;
+    max-width: 70vw;
+}
+
+.MuiCardContent-root:last-child {
+    padding-bottom: 8px !important;
+}
+
+.MuiCardContent-root {
+    padding: 8px !important;
+}
